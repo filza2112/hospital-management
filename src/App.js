@@ -1,3 +1,4 @@
+import React from 'react';
 import "./App.css";
 import Navbar from "./partials/navbar"
 import Hero from "./partials/Hero"
