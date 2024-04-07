@@ -1,3 +1,3 @@
-npm i
-npm install -D tailwindcss
-npx tailwindcss init
+npm i <br>
+npm install -D tailwindcss <br>
+npx tailwindcss init <br>
