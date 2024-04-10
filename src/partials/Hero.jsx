@@ -26,7 +26,7 @@ const Hero = () => {
       className="w-full max-w-[680px]" />
   </div>
 
-  <div className="w-[103%] absolute left-0 right-0">
+  <div className="w-full absolute left-0 right-0">
       <img src={require("../images/hero-shape.png")} alt=""
       className="w-full object-fill " />
   </div>
