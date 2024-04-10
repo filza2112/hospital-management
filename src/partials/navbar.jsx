@@ -2,6 +2,7 @@ import React from 'react';
 import "../App.css";
 import '../images/hospital.png';
 import '../images/india-flag.svg'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -60,7 +61,7 @@ const Navbar = () => {
 
               <li className="text-white font-mullish py-7 hover:text-deepBlue cursor-pointer
                transition-all duration-200 relative group hidden lg:block">
-              <a href="#">Support</a>
+              <a href="#"> <Link to={'/Contact Us'}>Contact Us</Link></a>
 
               <div className="absolute bottom-0 w-full h-1 bg-deepBlue hidden group-hover:block
               transition-all duration-200" ></div>
@@ -84,10 +85,10 @@ const Navbar = () => {
                   className="hidden lg:block"
                   />
               <button className="py-3 px-5 font-mullish text-white border-deepBlue border
-              rounded-sm text-sm  font-bold">Log in</button>
+              rounded-sm text-sm  font-bold"> <Link to={'/Sign Up'}>Login</Link></button>
               <button className="py-3 px-4 font-mullish rounded-sm text-sm font-bold
               bg-white text-lightBlue300 border transition-all duration-200
-              hover:text-lightBlue500 hidden lg:flex">Sign Up
+              hover:text-lightBlue500 hidden lg:flex"> <Link to={'/Sign Up'}>Login</Link>
               <svg
               viewBox="0 0 24 24"
               focusable="false"
