@@ -15,6 +15,9 @@ const Signup = () => {
         <input type='text' placeholder='username' required/>
         </div>}
        
+        {action==="Login" || action==="Lost Password"?<div></div>: <div className='input'>
+        <input type='date' placeholder='dd|mm|yyyy' required/>
+        </div>}
 
         <div className='input'>
         <input type='email' placeholder='email' required/>
@@ -23,7 +26,13 @@ const Signup = () => {
         {action==="Lost Password"?<div></div>:<div className='input'>
         <input type='password' placeholder='password' required/>
        </div>}
+
+       {action==="Lost Password"?<div></div>:<div className='input'>
+        <input type='password' placeholder='Re enter password' required/>
+       </div>}
        </div>
+
+       
        
         <div className='submit-container'>
             

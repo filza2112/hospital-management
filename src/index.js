@@ -3,8 +3,8 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import {RouterProvider, createBrowserRouter} from 'react-router-dom';
-import Signup from "./Signup";
-import Contact from "./Contact";
+import Signup from "./partials/Signup";
+import Contact from "./partials/Contact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 let allRoutes=createBrowserRouter([
