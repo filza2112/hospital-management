@@ -1,0 +1,68 @@
+.container{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(243, 246, 248);
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    
+  }
+  .formcontent{
+    width: 300px;;
+    height:400px;
+    margin:auto;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    
+  }
+  
+  .btn{
+    background-color: rgb(0, 132, 255);
+    width: 50%;
+    height: 10%;
+    margin: auto;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer; 
+    margin-top: 45px;
+    color: beige;
+    
+    
+  }
+  
+  .text{
+    margin-top: 30px;
+    width: 100%;
+    color:  rgb(0, 132, 255);
+    
+   
+  }
+  .name{
+    margin-top: 10px;
+    
+    width: 100%;
+    
+  }
+  input{
+    background-color:  #eaeaea;
+    border: none;
+    height: 40px;
+    width: 100%;
+    margin-top: 8px;
+    
+  }
+  
+  textarea{
+    background-color:  #eaeaea;
+    margin-top: 8px;
+    height: 150px;
+    border: none;
+    
+  }
+  /* for signup mpage */
+  
+  h2{
+    font-weight: 500;
+    font-size: 50px;
+  }

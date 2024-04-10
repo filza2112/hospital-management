@@ -2,6 +2,7 @@ import React, { useDeferredValue } from 'react';
 import "../App.css";
 import "../images/hero-shape.png"
 import "../images/hero.png"
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
@@ -18,7 +19,7 @@ const Hero = () => {
           <button
           className="bg-lightBlue500 text-white  py-[14px] px-[18px] rounded-md font-mullish font-bold
           hover:bg-lightBlue500 transition-all duration-200"
-          >Sign Up Now</button>
+          > <Link to={'/Sign Up'}>Sign Up Now</Link></button>
       </div>
       <img 
       src={require("../images/hero.png")} alt=""
